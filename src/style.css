@@ -1,0 +1,118 @@
+body {
+background: #0D1117;
+}
+
+.center {
+    text-align: center;
+}
+
+.header {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1e73eb;
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* flex: 1; */
+    background: #0D1117;
+    color: #fff;
+    width: 300px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+}
+
+.first-weather-info {
+    width: 400px;
+    height: 300px;
+    background: #4F4F4F;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.temp {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 117px;
+    color: #4793FF;
+    margin: auto;
+    margin-left: 35px;
+}
+
+.day {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-left: 25px;
+}
+
+.time-city {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #939CB0;
+    margin-left: 25px;
+}
+
+.second-weather-info {
+    background: #4F4F4F;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    border-radius: 20px;
+    background-image: url(/public/icons/Cloud.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 750px; 
+    margin-left: auto;
+    align-items: auto;
+    margin-right: 80px;
+}
+
+.icons {
+    width: 38px;
+    height: 38px;
+    left: 842px;
+    top: 157px;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.item {
+    margin-left: 40px;
+    color: #939CB0;
+}
+
+.item-results {
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.text {
+    color: #1e73eb;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
